@@ -1,27 +1,27 @@
 import Swal, { SweetAlertIcon, SweetAlertPosition } from 'sweetalert2';
 
 export interface msgOption {
-  title: string;
-  msg?: string;
-  icon?: SweetAlertIcon;
-  position?: SweetAlertPosition;
-  confirmBtn?: boolean;
-  cancelBtn?: boolean;
-  closeBtn?: boolean;
-  confirmText?: string;
-  cancelText?: string;
-  timer?: number;
-  progressbar?: boolean;
-  width?: string;
+    title: string;
+    msg?: string;
+    icon?: SweetAlertIcon;
+    position?: SweetAlertPosition;
+    confirmBtn?: boolean;
+    cancelBtn?: boolean;
+    closeBtn?: boolean;
+    confirmText?: string;
+    cancelText?: string;
+    timer?: number;
+    progressbar?: boolean;
+    width?: string;
 }
 
 export interface lightBoxOption {
-  imageURL: string;
-  imageWidth?: string;
+    imageURL: string;
+    imageWidth?: string;
 }
 
 function convertTime(timer: number): number {
-  return timer * 1000;
+    return timer * 1000;
 }
 
 export default class MsgAlert {
