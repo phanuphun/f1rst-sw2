@@ -1,0 +1,21 @@
+{
+  "name": "my-sw2",
+  "version": "1.0.0",
+  "description": "this is my custom SweetAlert2 ",
+  "main": "dist/MsgAlert.js",
+  "types": "dist/MsgAlert.d.ts",
+  "scripts": {
+    "build": "tsc"
+  },
+  "keywords": [
+    "sweetalert2"
+  ],
+  "author": "phanuphun",
+  "license": "ISC",
+  "dependencies": {
+    "sweetalert2": "^11.15.2"
+  },
+  "devDependencies": {
+    "typescript": "^5.7.2"
+  }
+}
