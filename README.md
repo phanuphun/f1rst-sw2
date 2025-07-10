@@ -214,13 +214,3 @@ async function deleteItem(id: number) {
 - `info` - Blue information
 - `question` - Gray question mark
 
-## Dependencies
-
-- [SweetAlert2](https://sweetalert2.github.io/) ^11.15.2
- 
-
-phanuphun
-
-## Repository
-
-[GitHub](https://github.com/phanuphun/f1rst-sw2)
