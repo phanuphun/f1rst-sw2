@@ -217,12 +217,7 @@ async function deleteItem(id: number) {
 ## Dependencies
 
 - [SweetAlert2](https://sweetalert2.github.io/) ^11.15.2
-
-## License
-
-ISC
-
-## Author
+ 
 
 phanuphun
 
